@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+   display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-us {
+    text-align: center;
+    padding: 40px 0;
+}
+footer ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.about-us h1 {
+    font-size: 24px;
+    color: #f00;
+}
+
+.about-us h2 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.about-us p {
+    font-size: 14px;
+}
+
+.team-members {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-members li {
+    text-align: center;
+}
+
+.team-members img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.team-members h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+team-members p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer p{
+    color: #ff0000;
+    text-align: center;
+    
+}
